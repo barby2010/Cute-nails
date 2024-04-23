@@ -1,0 +1,124 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Yanone Kaffeesatz;
+}
+footer {
+    margin-top: 120px;
+}
+main {
+    height: 850px;
+}
+h1 {
+    font-family: audiowide;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 10px 10px 20px #FA00FF;
+}
+hr {
+    border:none;
+    background-color: #FA00FF
+}
+a {
+    font-size: 70px;
+    color: #FFFF;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+footer a {
+    color: #E7B8E8;
+}
+h3 {
+    font-size: 40px;
+}
+footer h2 {
+    font-size: 73px; 
+}
+main img {
+    /*box-shadow: 80px 30px 0px white;
+    border-radius: 30px;*/
+}
+h2 {
+    font-size: 50px;
+}
+p {
+    font-size: 40px;
+}
+.krug {
+    width: 350px;
+    position: relative;
+    bottom: 400px;
+    right: 10px;
+}
+.roz {
+    width: 500px;
+    position: relative; 
+    bottom:290px;
+    right: 20%
+}
+.yel {
+    width: 500px; 
+    position: relative; 
+    bottom:350px;
+    right: 63%;
+}
+.vk {
+    position: relative;
+    bottom: 200px;
+    left: 4%
+}
+.inst {
+    position: relative;
+    bottom: 100px;
+    right: 14%
+}
+.cherry {
+    position: relative;
+    right: 5%;
+}
+.youtube {
+    position: relative;
+    bottom: 200px
+}
+.telegram {
+    position: relative;
+    bottom: 100px;
+    right: 10%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.rabota:hover {
+    background-color: #41BBFF;
+}
+.tochki {
+    padding: 10px;
+    background-color: #FAFF00;
+}
+.tochki:hover {
+    background-color: #FAFF00;
+}
+nav:has(a:hover:not(.selected)) .selected {
+    background-color: black;
+}
+.glavnayaa:hover, .glavnayaa.selected{
+    background-color: #8FFF00;
+}
+nav a {
+    padding:10px
+}
+.mastera:hover, .mastera.selected{
+    background-color:#FA00FF;
+}
+.zapis:hover, .zapis.selected{
+    background-color:#FF9900;
+}
+.rabota:hover, .rabota.selected{
+    background-color:#41BBFF;
+}
+.tochki:hover, .tochki.selected{
+    background-color:#FAFF00;
+}
+
