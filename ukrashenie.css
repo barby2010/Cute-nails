@@ -1,0 +1,240 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Yanone Kaffeesatz;
+}
+header {
+    
+}
+main {
+    height: 4200px
+}
+footer {
+    
+}
+h1 {
+    font-family: audiowide;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 10px 10px 20px #FA00FF;
+}
+
+hr {
+    border:none;
+    background-color: #FA00FF 
+}
+
+a {
+    font-size: 70px;
+    color: #FFFF;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+h2 {
+    font-size: 50px;
+}
+p {
+    font-size: 39px;
+}
+h4 { 
+    font-size: 37px;
+}
+a footer {
+    color: #E7B8E8;
+}
+footer h2 {
+    font-size: 73px; 
+}
+footer a {
+    color: #E7B8E8;
+}
+.vk {
+    position: relative;
+    bottom: 200px;
+    left: 4%
+}
+.inst {
+    position: relative;
+    bottom: 100px;
+    right: 14%
+}
+.cherry {
+    position: relative;
+    right: 5%;
+}
+.youtube {
+    position: relative;
+    bottom: 200px
+}
+.telegram {
+    position: relative;
+    bottom: 100px;
+    right: 10%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.nail1 {
+    position: relative;
+    bottom: 254px
+}
+.nail3 {
+    position: relative;
+    left:38%;
+    bottom: 250px;
+}
+.vika {
+    height: 800px;
+}
+.vika h2 {
+    position: relative;
+    bottom: 200px;
+    margin: 0px;
+}
+.vika p {
+    position: relative;
+    bottom: 200px;
+    margin: 0px;
+}
+.nail2 {
+    position: relative;
+    bottom: 100px
+}
+.nail4 {
+    position: relative;
+    bottom: 262px
+}
+.nail5 {
+    position:relative;
+    right: 12%;
+}
+.vikaa {
+    position: relative;
+    left: 38%;
+    width: 300px;
+}
+.albinochka {
+    position: relative;
+    left: 59%;
+    bottom: 558px;
+}
+.albina {
+    height: 800px;
+}
+.albina h2 {
+    position: relative;
+    bottom: 500px;
+    margin: 0px;
+    text-align: right;
+}
+.albina p {
+    position: relative;
+    bottom: 500px;
+    margin: 0px;
+    text-align: right;
+}
+.l2 {
+    position: relative;
+    bottom: 160px;
+}
+.l3 {
+    position: relative;
+    bottom:246px
+}
+.l1 {
+    position: relative;
+    left: 64%;
+    bottom: 240px
+}
+.primeril {
+    position: relative;
+    left: 39%;
+    top: 100px
+}
+h4 {
+    width: 300px;
+}
+.lera {
+    position: relative;
+    bottom: 100px
+}
+.lera h2 {
+    position: relative;
+    bottom: 260px
+}
+.lera p {
+    position: relative;
+    bottom: 280px
+}
+.nika {
+    position: relative;
+    bottom: 370px
+}
+.n3 {
+
+}
+.n1 {
+    position: relative;
+    bottom: 112px
+}
+.n2 {
+    position: relative;
+    right: 18%;
+    bottom: 11px;
+}
+.nikaa {
+    position: relative;
+    left: 60%;
+    bottom: 580px;
+}
+.nika h2 {
+    position: relative;
+    bottom: 600px;
+    left: 82%;
+}
+.nika p {
+    position: relative;
+    bottom: 640px;
+    left: 60%;
+}
+.mila {
+    position: relative;
+    bottom: 1000px;
+}
+.m1 {
+    position: relative;
+    bottom: 250px
+}
+.m2 {
+    position: relative;
+    bottom: 120px;
+}
+.prim {
+    position: relative;
+    left: 38%;
+    top: 20px
+}
+nav:has(a:hover:not(.selected)) .selected {
+    background-color: black;
+}
+.glavnayaa:hover, .glavnayaa.selected{
+    background-color: #8FFF00;
+}
+nav a {
+    padding:10px
+}
+.mastera:hover, .mastera.selected{
+    background-color:#FA00FF;
+}
+.zapis:hover, .zapis.selected{
+    background-color:#FF9900;
+}
+.rabota:hover, .rabota.selected{
+    background-color:#41BBFF;
+}
+.tochki:hover, .tochki.selected{
+    background-color:#FAFF00;
+}
+
