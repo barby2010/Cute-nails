@@ -1,0 +1,151 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Yanone Kaffeesatz;
+}
+main {
+    height: 1100px;
+    margin: 30px 40px 20px 40px
+
+}
+h1 {
+    font-family: audiowide;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 10px 10px 20px #FA00FF;
+}
+a {
+    font-size: 70px;
+    color: #FFFF;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+input::-webkit-input-placeholder { 
+    color: black; 
+    font-size: 23px;
+    font-family: Yanone Kaffeesatz;
+}
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+textarea::-webkit-input-placeholder { 
+    color: #A6D9F5;
+    font-size: 23px;
+    font-family: Yanone Kaffeesatz;
+}
+input {
+    height:76px
+}
+textarea {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    bottom: 250px;
+    width: 100%;
+    height: 400px;
+}
+hr {
+    border:none;
+    background-color: #FA00FF 
+}
+.inputer {
+    font-size: 20px;
+}
+footer h2 {
+    font-size: 73px; 
+}
+footer a {
+    color: #E7B8E8;
+}
+h2 {
+    font-size: 50px;
+}
+.familia {
+    position: relative;
+    left: 47%;
+    bottom: 92px;
+}
+.nomer {
+    position: relative;
+    bottom: 100px
+}
+.pochta {
+    position: relative;
+    bottom: 100px;
+    left: 25%;
+}
+.salon {
+    position: relative;
+    bottom: 100px    
+}
+.salon2 {
+    position: relative;
+    left: 40%;
+    bottom: 285px;
+    width: 850px
+}
+.rezume {
+    position: relative;
+    bottom: 300px;
+    left: 1%;
+    width: 96%;
+}
+.knopka {
+    position: relative;
+    bottom: 320px;
+    left:2%
+}
+.vk {
+    position: relative;
+    bottom: 200px;
+    left: 4%
+}
+.inst {
+    position: relative;
+    bottom: 100px;
+    right: 14%
+}
+.cherry {
+    position: relative;
+    right: 5%;
+}
+.youtube {
+    position: relative;
+    bottom: 200px
+}
+.telegram {
+    position: relative;
+    bottom: 100px;
+    right: 10%;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav:has(a:hover:not(.selected)) .selected {
+    background-color: black;
+}
+.glavnayaa:hover, .glavnayaa.selected{
+    background-color: #8FFF00;
+}
+nav a {
+    padding:10px
+}
+.mastera:hover, .mastera.selected{
+    background-color:#FA00FF;
+}
+.zapis:hover, .zapis.selected{
+    background-color:#FF9900;
+}
+.rabota:hover, .rabota.selected{
+    background-color:#41BBFF;
+}
+.tochki:hover, .tochki.selected{
+    background-color:#FAFF00;
+}
+
